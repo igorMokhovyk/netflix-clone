@@ -1,4 +1,5 @@
 
+
 import styled from 'styled-components/macro';
 
 export const Container = styled.div`
@@ -15,6 +16,18 @@ export const Inner = styled.div`
   margin: auto;
 `;
 
+export const Title = styled.h1`
+  font-size: 50px;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: white;
+  text-align: center;
+  @media (max-width: 600px) {
+    font-size: 35px;
+  }
+`;
+
 export const Item = styled.div`
   color: white;
   margin: auto;
@@ -28,20 +41,6 @@ export const Item = styled.div`
     margin-bottom: 0;
   }
 `;
-
-export const Title = styled.h1`
-  font-size: 50px;
-  line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: 8px;
-  color: white;
-  text-align: center;
-  @media (max-width: 600px) {
-    font-size: 35px;
-  }
-`;
-
-
 
 export const Header = styled.div`
   display: flex;
@@ -73,6 +72,7 @@ export const Body = styled.div`
   line-height: normal;
   background: #303030;
   padding: 30px;
+
   white-space: pre-wrap;
   user-select: none;
   overflow: hidden;

@@ -3,6 +3,7 @@ import faqsData from '../fixtures/faqs.json'
 import {Accordion} from '../components'
 import OptForm from "./opt-input-form";
 
+
 export function FaqsContainer() {
   return (
     <Accordion>
@@ -13,6 +14,7 @@ export function FaqsContainer() {
           <Accordion.Body>{el.body}</Accordion.Body>
         </Accordion.Item>
       )}
+
       <Accordion.Item/>
       <OptForm>
         <OptForm.Input placeholder='Email address'/>

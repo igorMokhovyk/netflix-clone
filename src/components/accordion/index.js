@@ -1,15 +1,19 @@
 import React, {useState, useContext, createContext} from "react";
+
 import {Container,  Title, Item, Inner, Header, Body} from './styles/accordion';
 import PropTypes from 'prop-types';
+
 
 
 const ToggleContext = createContext()
 
 export default function Accordion({children, ...resProps}) {
 
+
   Accordion.propTypes = {
     children: PropTypes.node.isRequired,
   };
+
 
   return (
     <Container {...resProps}>
@@ -19,6 +23,7 @@ export default function Accordion({children, ...resProps}) {
 }
 
 Accordion.Title = function AccourdionTitle({children, ...restProps}) {
+
 
   Accordion.Title.propTypes = {
     children: PropTypes.node.isRequired,
@@ -34,6 +39,7 @@ Accordion.Item = function AccordionItem({children, ...restProps}) {
   Accordion.Item.propTypes = {
     children: PropTypes.node.isRequired,
   };
+
   const [toggleShow, setToggleShow] = useState(false);
 
   return (
@@ -44,6 +50,7 @@ Accordion.Item = function AccordionItem({children, ...restProps}) {
 };
 
 Accordion.Header = function AccourdionHeader({children, ...restProps}) {
+
 
   Accordion.Header.propTypes = {
     children: PropTypes.node.isRequired,
