@@ -9,6 +9,7 @@ import Browse from "./pages/browse";
 import Signin from "./pages/signin";
 
 
+
 export default function App() {
   return (
     <Router>
@@ -25,6 +26,5 @@ export default function App() {
         <Home/>
       </Route>
     </Router>
-
   );
 }
