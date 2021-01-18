@@ -15,7 +15,6 @@ export default function Accordion({children, ...resProps}) {
   };
 
 
-
   return (
     <Container {...resProps}>
       <Inner>{children}</Inner>
@@ -78,7 +77,6 @@ Accordion.Body = function AccordionBody({children, ...restProps}) {
   Accordion.Body.propTypes = {
     children: PropTypes.node.isRequired,
   };
-
 
   const {toggleShow} = useContext(ToggleContext);
 
