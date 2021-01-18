@@ -1,5 +1,4 @@
 import React, {useState, useContext, createContext} from "react";
-
 import {Container,  Title, Item, Inner, Header, Body} from './styles/accordion';
 import PropTypes from 'prop-types';
 

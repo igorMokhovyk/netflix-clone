@@ -1,5 +1,3 @@
-
-
 import styled from 'styled-components/macro';
 
 export const Container = styled.div`
@@ -72,7 +70,6 @@ export const Body = styled.div`
   line-height: normal;
   background: #303030;
   padding: 30px;
-
   white-space: pre-wrap;
   user-select: none;
   overflow: hidden;
