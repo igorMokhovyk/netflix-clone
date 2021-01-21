@@ -2,7 +2,7 @@ import React from "react";
 import {JumbotronContainer} from "../containers/jumbotron";
 import {FaqsContainer} from "../components/faq";
 import {FooterContainer} from "../containers/footer";
-import HeaderContainer from "../containers/header";
+import  HeaderContainer  from '../containers/header';
 import {OptForm} from "../components";
 import {Feature} from "../components";
 
